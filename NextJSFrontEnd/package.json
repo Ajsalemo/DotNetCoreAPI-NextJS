@@ -1,0 +1,31 @@
+{
+  "name": "nextjsfrontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@tailwindcss/ui": "^0.6.2",
+    "axios": "^0.21.0",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "tailwindcss": "^1.8.13"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@testing-library/dom": "^7.26.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "babel-jest": "^26.5.2",
+    "jest": "^26.5.3",
+    "jest-dom": "^4.0.0",
+    "postcss-preset-env": "^6.7.0"
+  }
+}

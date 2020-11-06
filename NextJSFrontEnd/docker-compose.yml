@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  nextjsfrontend-container:
+    container_name: nextjsfrontend-container
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_URL_API=${NEXT_PUBLIC_URL_API}
+
+        
+  dotnetcoreapi-container:
+    container_name: dotnetcoreapi-container
+    build: ../DotNetCoreApi/
+    ports:
+      - "5000:5000"
+
+  
