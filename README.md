@@ -8,17 +8,14 @@ A basic NextJS UI that uses express.js which connects to a ASP .NET Core API on 
 ```
 services:
   nextjsfrontend-container:
-    container_name: nextjsfrontend-container
-    build: .
+    image: ansalemocontainerregistry.azurecr.io/nextjsfrontend:v3
     ports:
       - "3000:3000"
     environment:
       - NEXT_PUBLIC_URL_API=${NEXT_PUBLIC_URL_API}
 
-        
   dotnetcoreapi-container:
-    container_name: dotnetcoreapi-container
-    build: ../DotNetCoreApi/
+    image: ansalemocontainerregistry.azurecr.io/dotnetcoreapi:v3
     ports:
       - "5000:5000"
 ```
