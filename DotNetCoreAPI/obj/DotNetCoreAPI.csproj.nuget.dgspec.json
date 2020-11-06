@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI\\DotNetCoreAPI.csproj": {}
+    "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI-NextJS\\DotNetCoreAPI\\DotNetCoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI\\DotNetCoreAPI.csproj": {
+    "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI-NextJS\\DotNetCoreAPI\\DotNetCoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI\\DotNetCoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI-NextJS\\DotNetCoreAPI\\DotNetCoreAPI.csproj",
         "projectName": "DotNetCoreAPI",
-        "projectPath": "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI\\DotNetCoreAPI.csproj",
+        "projectPath": "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI-NextJS\\DotNetCoreAPI\\DotNetCoreAPI.csproj",
         "packagesPath": "C:\\Users\\ansalemo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI-NextJS\\DotNetCoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ansalemo\\AppData\\Roaming\\NuGet\\NuGet.Config",

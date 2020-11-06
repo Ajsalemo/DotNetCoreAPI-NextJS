@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kSfFrPBP9KdR+eJQ15CFktxqbIy9Z2eM04H+hgoJHaXqF6WOn80DtnpIiTY7h+7rlYD5F6H2Q5oCWpi1GnteXw==",
+  "dgSpecHash": "x2cvqHcl5GOeBBlAHazUVgHfu4AnQmftrw3GRPfVUtc4ScJl3ttK28MynR/WLCyZNh9q37zcwweVEV8s78gguQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI\\DotNetCoreAPI.csproj",
+  "projectFilePath": "C:\\Users\\ansalemo\\Documents\\Code\\AzureDevelopmentTests\\NextjsDotNetCoreCompose\\DotNetCoreAPI-NextJS\\DotNetCoreAPI\\DotNetCoreAPI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
