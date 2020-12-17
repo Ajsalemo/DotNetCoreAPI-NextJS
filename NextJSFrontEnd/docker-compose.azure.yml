@@ -5,6 +5,8 @@ services:
     image: ansalemocontainerregistry.azurecr.io/nextjsfrontend:v3
     ports:
       - "3000:3000"
+    volumes:
+      - dotnetcoreapi-dockercompose-volume:/data
     environment:
       - NEXT_PUBLIC_URL_API=${NEXT_PUBLIC_URL_API}
 
