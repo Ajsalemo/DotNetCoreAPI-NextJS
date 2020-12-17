@@ -7,8 +7,6 @@ services:
       - "3000:3000"
     volumes:
       - dotnetcoreapi-dockercompose-volume:/data
-    environment:
-      - NEXT_PUBLIC_URL_API=${NEXT_PUBLIC_URL_API}
 
   dotnetcoreapi-container:
     image: ansalemocontainerregistry.azurecr.io/dotnetcoreapi:v3

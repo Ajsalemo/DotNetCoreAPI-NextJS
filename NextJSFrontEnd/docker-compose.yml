@@ -6,9 +6,6 @@ services:
     build: .
     ports:
       - "3000:3000"
-    environment:
-      - NEXT_PUBLIC_URL_API=${NEXT_PUBLIC_URL_API}
-
         
   dotnetcoreapi-container:
     container_name: dotnetcoreapi-container
