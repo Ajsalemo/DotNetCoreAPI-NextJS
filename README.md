@@ -10,19 +10,18 @@ The environment variable NEXT_PUBLIC_URL_API should be changed to the service(co
 ```
 services:
   nextjsfrontend-container:
-    image: ansalemocontainerregistry.azurecr.io/nextjsfrontend:v3
+    image: yourcontainerregistry.azurecr.io/nextjsfrontend:yourtag
     ports:
       - "3000:3000"
     environment:
       - NEXT_PUBLIC_URL_API=${NEXT_PUBLIC_URL_API}
 
   dotnetcoreapi-container:
-    image: ansalemocontainerregistry.azurecr.io/dotnetcoreapi:v3
+    image: yourcontainerregistry.azurecr.io/dotnetcoreapi:yourtag
     ports:
       - "5000:5000"
 ```
 
 Optionally and more preferably, you can just add the above environment variable to your AppSettings within your Azure Application.
 
-#### Disclaimer: 
-A working example of this can be found here: https://ansalemo-nextjs-dotnetcoreapi-dockercompose.azurewebsites.net/. I have this running on a `free` SKU so the pull time for images and startup may be rather long. It would be advisable to clone or fork and build these into your own frontend/backend images to play around with instead.
+
